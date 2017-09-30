@@ -1,0 +1,65 @@
+#principal{
+    width: 500px;
+    height: 250px;
+    /*
+    background-image: url("../img/arvore.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-color: #e1efbb;
+    */
+    background: url("../img/arvore.png") no-repeat bottom right #e1efbb;
+    margin: 10px;
+    /*border 1px dotted #333; */
+    border: 1px;
+    border-style: dotted;
+    border-color: #333;
+    border: 1px;
+    border-style: dotted;
+    border-color: #333;
+    border-bottom-color: red;
+    border-block-end-style: solid;
+    border-bottom: 2px;
+
+    border-radius: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px #0A76F1;
+}
+h1{
+    padding-left: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 21px;
+    font-size: 25px;
+    color: #205899;
+    text-align: center;
+    font-family: "Comic San MS", verdana sans-serif;
+    font-variant: small small-caps;
+    
+}
+p{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 16px;
+    text-align: justify;
+    color: rgb(34, g139,34);
+    letter-spacing: 0.02em;
+    word-spacing: 0.2em;
+    text-indent: 20px;
+ 
+}
+ul{
+    padding-left: 50px;
+    list-style-type: square;
+}
+
+ul li{
+    height: 20px;
+    color: rgba(34, 139, 34,0,8);
+    font-weight: bold;
+    
+}
+
+
+.destacado{
+    text-decoration: underline;
+    text-transform: uppercase;
+}
